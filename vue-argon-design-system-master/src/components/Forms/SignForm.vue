@@ -19,6 +19,7 @@
                 </base-button>
             </div>
         </template>
+        <br>
         <template>
             <form role="form">
                 <span v-if="register">

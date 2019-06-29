@@ -12,8 +12,11 @@
         </div>
         <div class="container pt-lg-md">
             <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <card type="secondary" shadow
+                <v-flex xs10 offset-xs1>
+
+               
+                <!-- <div class="col-lg-5"> -->
+                    <!-- <card type="secondary" shadow
                           header-classes="bg-white pb-5"
                           body-classes="px-lg-5 py-lg-5"
                           class="border-0">
@@ -56,7 +59,9 @@
                                 </div>
                             </form>
                         </template>
-                    </card>
+                    </card> -->
+                    <SignForm></SignForm>
+
                     <div class="row mt-3">
                         <div class="col-6">
                             <a href="#" class="text-light">
@@ -69,13 +74,20 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                     </v-flex>
+                <!-- </div> -->
             </div>
         </div>
     </section>
 </template>
 <script>
-export default {};
+import SignForm from "@/components/Forms/SignForm";
+
+export default {
+    components: {
+    SignForm
+  }
+};
 </script>
 <style>
 </style>

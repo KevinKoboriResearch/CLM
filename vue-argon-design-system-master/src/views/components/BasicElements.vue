@@ -1,6 +1,6 @@
 <template>
     <section class="section section-components pb-0" id="section-components">
-        <div class="container">
+        <div class="container bg-gradient-white">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <!-- Basic elements -->
@@ -13,6 +13,7 @@
                     <div>
                         <base-button type="primary">Button</base-button>
                         <base-button class="btn-3" type="primary" icon="ni ni-bag-17">Button</base-button>
+                        <base-button class="btn-3" icon="ni ni-bag-17">Button</base-button>
                         <base-button class="btn-2" type="primary" icon="ni ni-bag-17"></base-button>
 
                         <!-- Button wizes -->
